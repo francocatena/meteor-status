@@ -5,6 +5,7 @@ Package.describe({
 Package.on_use(function(api, where) {
   api.use([
     'meteor',
+    'deps',
     'underscore',
     'templating'
   ], 'client')
