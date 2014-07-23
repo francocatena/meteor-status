@@ -1,0 +1,10 @@
+{
+  "name": "status",
+  "description": "Display the connection status with the server",
+  "homepage": "https://github.com/francocatena/meteor-status",
+  "author": "Franco Catena <francocatena@gmail.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/francocatena/meteor-status",
+  "packages": {
+  }
+}
