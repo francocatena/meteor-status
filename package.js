@@ -15,6 +15,7 @@ Package.on_use(function(api, where) {
 
   api.add_files([
     'lib/status.html',
+    'lib/retry_time.js',
     'lib/status.js',
     'i18n/en.i18n.json',
     'i18n/es.i18n.json'
