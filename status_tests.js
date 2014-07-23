@@ -9,7 +9,7 @@ Tinytest.add('Status template not shown when connected', function(test) {
     }
   }
 
-  UI.insert(UI.render(Template.meteorStatus), document.body)
+  UI.insert(UI.render(Template.status), document.body)
 
   test.equal(0, document.getElementsByClassName('alert').length)
 })
@@ -25,7 +25,7 @@ Tinytest.add('Status template shown when not connected', function(test) {
     }
   }
 
-  UI.insert(UI.render(Template.meteorStatus), document.body)
+  UI.insert(UI.render(Template.status), document.body)
 
   test.equal(1, document.getElementsByClassName('alert').length)
 })

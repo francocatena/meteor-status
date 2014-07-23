@@ -1,4 +1,4 @@
-Template.meteorStatus.helpers({
+Template.status.helpers({
   connected: function() {
     return Meteor.status().connected
   },
@@ -20,7 +20,7 @@ Template.meteorStatus.helpers({
   }
 })
 
-Template.meteorStatus.events({
+Template.status.events({
   'a.alert-link click': function(e) {
     e.preventDefault()
     Meteor.reconnect()
