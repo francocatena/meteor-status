@@ -3,7 +3,7 @@
   "description": "Display the connection status with the server",
   "homepage": "https://github.com/francocatena/meteor-status",
   "author": "Franco Catena <francocatena@gmail.com>",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "git": "https://github.com/francocatena/meteor-status",
   "packages": {
     "tap-i18n": {}
