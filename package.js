@@ -1,34 +1,30 @@
 Package.describe({
-  summary: 'Display the connection status with the server'
+  name: 'francocatena:status',
+  summary: 'Display the connection status with the server',
+  version: '0.3.0'
+  git: 'https://github.com/francocatena/meteor-status',
 })
 
-Package.on_use(function(api, where) {
-  api.use([
-    'meteor',
-    'deps',
-    'underscore',
-    'templating'
-  ], 'client')
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.0.1')
 
-  api.use(['tap-i18n'], ['client', 'server'])
+  api.use('deps', 'client')
+  api.use('templating', 'client')
+  api.use('underscore', 'client')
+  api.use('TAPevents:tap-i18n', ['client', 'server'])
 
-  api.add_files('package-tap.i18n', ['client', 'server'])
-
-  api.add_files([
-    'lib/status.html',
-    'lib/retry_time.js',
-    'lib/status.js',
-    'i18n/en.i18n.json',
-    'i18n/es.i18n.json'
-  ], 'client')
+  api.addFiles('package-tap.i18n', ['client', 'server'])
+  api.addFiles('lib/status.html', 'client')
+  api.addFiles('lib/retry_time.js', 'client')
+  api.addFiles('lib/status.js', 'client')
+  api.addFiles('i18n/en.i18n.json', 'client')
+  api.addFiles('i18n/es.i18n.json', 'client')
 })
 
-Package.on_test(function(api) {
-  api.use([
-    'status',
-    'tinytest',
-    'test-helpers'
-  ], 'client')
+Package.onTest(function(api) {
+  api.use('status', 'client')
+  api.use('tinytest', 'client')
+  api.use('test-helpers', 'client')
 
-  api.add_files('test/status_tests.js', 'client')
+  api.addFiles('test/status_tests.js', 'client')
 })
