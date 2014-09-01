@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('deps', 'client')
   api.use('templating', 'client')
   api.use('underscore', 'client')
-  api.use('TAPevents:tap-i18n', ['client', 'server'])
+  api.use('tap:i18n', ['client', 'server'])
 
   api.addFiles('package-tap.i18n', ['client', 'server'])
   api.addFiles('lib/status.html', 'client')
