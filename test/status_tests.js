@@ -1,5 +1,5 @@
-Tinytest.add('Status template not shown when connected', function(test) {
-  Meteor.status = function() {
+Tinytest.add('Status template not shown when connected', function (test) {
+  Meteor.status = function () {
     return {
       connected: true,
       status: 'connected',
@@ -14,8 +14,8 @@ Tinytest.add('Status template not shown when connected', function(test) {
   test.equal(0, document.getElementsByClassName('alert').length)
 })
 
-Tinytest.add('Status template shown when not connected', function(test) {
-  Meteor.status = function() {
+Tinytest.add('Status template shown when not connected', function (test) {
+  Meteor.status = function () {
     return {
       connected: false,
       status: 'waiting',
