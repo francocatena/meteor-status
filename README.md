@@ -5,7 +5,7 @@ Display the app connection status with the server
 
 ## Installation
 
-```console
+```bash
 $ meteor add francocatena:status
 ```
 
@@ -25,6 +25,12 @@ If you want to display the messages in another language, you can
 Meteor.startup(function () {
   TAPi18n.setLanguage('fr')
 })
+```
+
+If you are **not** using tap:i18n you should create an empty file for the language:
+
+```bash
+$ mkdir -p i18n && touch i18n/fr.i18n.json
 ```
 
 And voilà:
