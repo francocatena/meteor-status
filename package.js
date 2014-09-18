@@ -13,6 +13,7 @@ Package.onUse(function (api) {
   api.use('underscore', 'client')
 
   api.use('tap:i18n@1.0.3', ['client', 'server'])
+  api.imply('tap:i18n')
 
   api.addFiles('i18n/package-tap.i18n', ['client', 'server'])
 
