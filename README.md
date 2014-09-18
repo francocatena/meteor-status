@@ -9,7 +9,7 @@ Just insert `{{> status}}` in your body and you are ready to go...
 
 This is what it looks like when the connection between the server and the client is lost:
 
-![Disconnected status in english](https://raw.github.com/francocatena/meteor-status/master/docs/example_en.png)
+![Disconnected status in english](docs/example_en.png)
 
 ## Translate
 
@@ -23,7 +23,7 @@ Meteor.startup(function () {
 
 And voilà:
 
-![Disconnected status in french](https://raw.github.com/francocatena/meteor-status/master/docs/example_fr.png)
+![Disconnected status in french](docs/example_fr.png)
 
 ### Available translations
 
