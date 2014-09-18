@@ -3,6 +3,12 @@ Meteor status
 
 Display the app connection status with the server
 
+## Installation
+
+```console
+$ meteor add francocatena:status
+```
+
 ## Usage
 
 Just insert `{{> status}}` in your body and you are ready to go...
