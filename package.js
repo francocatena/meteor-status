@@ -11,6 +11,7 @@ Package.onUse(function (api) {
   api.use('deps', 'client')
   api.use('templating', 'client')
   api.use('underscore', 'client')
+  api.use('reactive-var', 'client')
 
   api.use('tap:i18n@1.0.7', ['client', 'server'])
   api.imply('tap:i18n')
