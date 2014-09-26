@@ -1,18 +1,18 @@
 Package.describe({
   name: 'francocatena:status',
   summary: 'Display the connection status with the server',
-  version: '0.9.7',
+  version: '0.9.8',
   git: 'https://github.com/francocatena/meteor-status',
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@0.9.2.2')
+  api.versionsFrom('METEOR@0.9.3')
 
   api.use('deps', 'client')
   api.use('templating', 'client')
   api.use('underscore', 'client')
 
-  api.use('tap:i18n@1.0.3', ['client', 'server'])
+  api.use('tap:i18n@1.0.7', ['client', 'server'])
   api.imply('tap:i18n')
 
   api.addFiles('i18n/package-tap.i18n', ['client', 'server'])
