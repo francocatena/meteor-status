@@ -23,6 +23,7 @@ Package.onUse(function (api) {
   api.addFiles('i18n/en.i18n.json', ['client', 'server'])
   api.addFiles('i18n/es.i18n.json', ['client', 'server'])
   api.addFiles('i18n/fr.i18n.json', ['client', 'server'])
+  api.addFiles('i18n/it.i18n.json', ['client', 'server'])
 
   api.addFiles('lib/retry_time.js', 'client')
   api.addFiles('lib/status.js', 'client')
