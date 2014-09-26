@@ -11,7 +11,7 @@ $ meteor add francocatena:status
 
 ## Usage
 
-Just insert `{{> status}}` in your body and you are ready to go...
+Just insert `{{> status}}` and you are ready
 
 This is what it looks like when the connection between the server and the client is lost:
 
@@ -19,7 +19,7 @@ This is what it looks like when the connection between the server and the client
 
 ## Translate
 
-If you want to display the messages in another language, you can
+If you want to display the messages in another language
 
 ```javascript
 Meteor.startup(function () {
