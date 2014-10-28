@@ -1,12 +1,12 @@
 Package.describe({
   name: 'francocatena:status',
   summary: 'Display the connection status with the server',
-  version: '0.9.9',
+  version: '1.0.0',
   git: 'https://github.com/francocatena/meteor-status',
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@0.9.4')
+  api.versionsFrom('METEOR@1.0')
 
   api.use('deps',         'client')
   api.use('templating',   'client')
