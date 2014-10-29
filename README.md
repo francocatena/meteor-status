@@ -43,3 +43,4 @@ And voilà:
 - Spanish
 - French (thanks to [Arthur Tayrac](https://github.com/crmfrsh))
 - Italian (thanks to [alexdown](https://github.com/alexdown))
+- Turkish (thanks to [fuatsengul](https://github.com/fuatsengul))
