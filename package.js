@@ -1,7 +1,7 @@
 Package.describe({
   name: 'francocatena:status',
   summary: 'Display the connection status with the server',
-  version: '1.0.2',
+  version: '1.0.3',
   git: 'https://github.com/francocatena/meteor-status',
 })
 
@@ -26,6 +26,7 @@ Package.onUse(function (api) {
   api.addFiles('i18n/fr.i18n.json', ['client', 'server'])
   api.addFiles('i18n/it.i18n.json', ['client', 'server'])
   api.addFiles('i18n/tr.i18n.json', ['client', 'server'])
+  api.addFiles('i18n/de.i18n.json', ['client', 'server'])
 
   api.addFiles('lib/status.js',     'client')
 })
