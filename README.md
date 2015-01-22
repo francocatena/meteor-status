@@ -17,6 +17,47 @@ This is what it looks like when the connection between the server and the client
 
 ![Disconnected status in english](https://raw.githubusercontent.com/francocatena/meteor-status/master/docs/example_en.png)
 
+## Templates
+
+The status component can be generated using a specific template by providing a template name
+
+```javascript
+Meteor.startup(function () {
+  Status.setTemplate('semantic_ui')
+})
+```
+
+### Available templates
+
+- bootstrap3 (default)
+- semantic_ui (thanks [Sivli Kestanous](https://github.com/Kestanous))
+
+### Creating a custom template
+
+To define a custom template simply create a template with the name 'status\_' + templateName
+
+For example:
+
+```html
+<template name="status_foundation">
+</template>
+```
+
+And then use it like this:
+
+```javascript
+Status.setTemplate('foundation')
+```
+
+You can also set the main classes (or other options) in the provided templates
+
+```javascript
+Status.setTemplate('bootstrap3', { classes: 'alert-danger' })
+```
+
+For examples see the
+[templates](https://github.com/francocatena/meteor-status/tree/master/templates) folder
+
 ## Translate
 
 If you want to display the messages in another language
