@@ -1,24 +1,25 @@
 Package.describe({
   name: 'francocatena:status',
   summary: 'Display the connection status with the server',
-  version: '1.0.3',
+  version: '1.0.4',
   git: 'https://github.com/francocatena/meteor-status',
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0')
+  api.versionsFrom('1.0')
 
   api.use('deps',         'client')
   api.use('templating',   'client')
   api.use('underscore',   'client')
   api.use('reactive-var', 'client')
 
-  api.use('tap:i18n@1.0.7', ['client', 'server'])
+  api.use('tap:i18n@1.3.2', ['client', 'server'])
   api.imply('tap:i18n')
 
   api.addFiles('i18n/package-tap.i18n', ['client', 'server'])
 
-  api.addFiles('lib/status.html', 'client')
+  api.addFiles('lib/status.html',           'client')
+  api.addFiles('templates/bootstrap3.html', 'client')
 
   // Always after templates
   api.addFiles('i18n/en.i18n.json', ['client', 'server'])
@@ -28,7 +29,10 @@ Package.onUse(function (api) {
   api.addFiles('i18n/tr.i18n.json', ['client', 'server'])
   api.addFiles('i18n/de.i18n.json', ['client', 'server'])
 
-  api.addFiles('lib/status.js',     'client')
+  api.addFiles('status.js',     'client')
+  api.addFiles('lib/status.js', 'client')
+
+  api.export('Status', 'client')
 })
 
 Package.onTest(function (api) {
