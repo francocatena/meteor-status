@@ -1,20 +1,24 @@
-var template        = new ReactiveVar('bootstrap3')
-var templateOptions = new ReactiveVar({
-  classes: 'alert-warning'
-})
+var template = new ReactiveVar('bootstrap3')
+var options  = new ReactiveVar({})
+var defaults = {
+  classes: {
+    bootstrap3:  'alert-warning',
+    semantic_ui: 'negative'
+  }
+}
 
 Status = {
   template: function () {
     return template.get()
   },
 
-  templateOptions: function () {
-    return templateOptions.get()
+  option: function (option) {
+    return options.get()[option] || defaults[option][template.get()]
   },
 
-  setTemplate: function (name, options) {
+  setTemplate: function (name, _options) {
     template.set(name)
 
-    if (options) templateOptions.set(options)
+    if (_options) options.set(_options)
   }
 }
