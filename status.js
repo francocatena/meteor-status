@@ -1,5 +1,5 @@
-var template = new ReactiveVar('bootstrap3')
-var templateOptions = new ReactiveVar({ 
+var template        = new ReactiveVar('bootstrap3')
+var templateOptions = new ReactiveVar({
   classes: 'alert-warning'
 })
 
@@ -14,8 +14,7 @@ Status = {
 
   setTemplate: function (name, options) {
     template.set(name)
-    if (options) {
-      templateOptions.set(options)
-    }
+
+    if (options) templateOptions.set(options)
   }
 }

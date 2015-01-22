@@ -18,9 +18,9 @@ Package.onUse(function (api) {
 
   api.addFiles('i18n/package-tap.i18n', ['client', 'server'])
 
-  api.addFiles('lib/status.html',           'client')
-  api.addFiles('templates/bootstrap3.html', 'client')
-  api.addFiles('templates/semantic-ui.html', 'client')
+  api.addFiles('lib/status.html',            'client')
+  api.addFiles('templates/bootstrap3.html',  'client')
+  api.addFiles('templates/semantic_ui.html', 'client')
 
   // Always after templates
   api.addFiles('i18n/en.i18n.json', ['client', 'server'])
