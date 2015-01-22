@@ -86,3 +86,4 @@ And voilà:
 - Italian (thanks to [alexdown](https://github.com/alexdown))
 - Turkish (thanks to [fuatsengul](https://github.com/fuatsengul))
 - German (thanks to [xanatas](https://github.com/xanatas))
+- Portuguese (thanks to [Rodrigo Nascimento](https://github.com/rodrigok))
