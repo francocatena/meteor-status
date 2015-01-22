@@ -29,6 +29,7 @@ Package.onUse(function (api) {
   api.addFiles('i18n/it.i18n.json', ['client', 'server'])
   api.addFiles('i18n/tr.i18n.json', ['client', 'server'])
   api.addFiles('i18n/de.i18n.json', ['client', 'server'])
+  api.addFiles('i18n/pt.i18n.json', ['client', 'server'])
 
   api.addFiles('status.js',     'client')
   api.addFiles('lib/status.js', 'client')
