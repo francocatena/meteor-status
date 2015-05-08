@@ -13,7 +13,7 @@ Package.onUse(function (api) {
   api.use('underscore',   'client')
   api.use('reactive-var', 'client')
 
-  api.use('tap:i18n@1.3.2', ['client', 'server'])
+  api.use('tap:i18n@1.4.1', ['client', 'server'])
   api.imply('tap:i18n')
 
   api.addFiles('i18n/package-tap.i18n', ['client', 'server'])
