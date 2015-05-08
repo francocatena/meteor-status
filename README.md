@@ -69,6 +69,12 @@ Meteor.startup(function () {
 })
 ```
 
+If you are **not** using tap:i18n you should create an empty file for the language:
+
+```bash
+$ mkdir -p i18n && touch i18n/fr.i18n.json
+```
+
 And voilà:
 
 ![Disconnected status in french](https://raw.githubusercontent.com/francocatena/meteor-status/master/docs/example_fr.png)
