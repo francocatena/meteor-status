@@ -31,6 +31,7 @@ Meteor.startup(function () {
 
 - bootstrap3 (default)
 - semantic_ui (thanks [Sivli Kestanous](https://github.com/Kestanous))
+- materialize (thanks [Gabriel](https://github.com/kainlite))
 
 ### Creating a custom template
 
