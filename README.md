@@ -83,7 +83,7 @@ And voilà:
 
 - English (default)
 - Spanish
-- French (thanks to [Arthur Tayrac](https://github.com/crmfrsh))
+- French (thanks to [Arthur Tayrac](https://github.com/crmfrsh) and [Maxence Aïci](https://github.com/mininao))
 - Italian (thanks to [alexdown](https://github.com/alexdown))
 - Turkish (thanks to [fuatsengul](https://github.com/fuatsengul))
 - German (thanks to [xanatas](https://github.com/xanatas))
