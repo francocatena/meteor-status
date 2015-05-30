@@ -7,5 +7,5 @@
   "meteor_status_reconnect_in": "一秒鐘後再嘗試...",
   "meteor_status_reconnect_in_plural": "在__count__秒鍾後再嘗試...",
   "meteor_status_try_now_waiting": "現在再試",
-  "meteor_status_try_now_offline": "重新連接"
+  "meteor_status_try_now_offline": "重新連線"
 }
