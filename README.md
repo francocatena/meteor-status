@@ -89,3 +89,4 @@ And voilà:
 - German (thanks to [xanatas](https://github.com/xanatas))
 - Portuguese (thanks to [Rodrigo Nascimento](https://github.com/rodrigok))
 - Dutch (thanks to [David Soff](https://github.com/Davidrums))
+- Traditional Chinese (thanks to [Henry Hsiao](https://github.com/hehsiao))
