@@ -45,6 +45,8 @@ Package.onUse(function (api) {
 })
 
 Package.onTest(function (api) {
+  var client = 'client'
+
   api.use('francocatena:status', client)
   api.use('tinytest',            client)
   api.use('test-helpers',        client)
