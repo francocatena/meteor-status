@@ -90,4 +90,4 @@ And voilà:
 - Portuguese (thanks to [Rodrigo Nascimento](https://github.com/rodrigok))
 - Dutch (thanks to [David Soff](https://github.com/Davidrums))
 - Traditional Chinese (thanks to [Henry Hsiao](https://github.com/hehsiao))
-- Danish
+- Danish (thanks to [132041](https://github.com/132041))
