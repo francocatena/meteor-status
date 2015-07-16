@@ -1,7 +1,7 @@
 Package.describe({
   name:    'francocatena:status',
   summary: 'Display the connection status between the browser and the Meteor server',
-  version: '1.2.3',
+  version: '1.2.4',
   git:     'https://github.com/francocatena/meteor-status',
 })
 
@@ -13,7 +13,7 @@ Package.onUse(function (api) {
   api.use('underscore',   'client')
   api.use('reactive-var', 'client')
 
-  api.use('tap:i18n@1.4.1', ['client', 'server'])
+  api.use('tap:i18n@1.5.1', ['client', 'server'])
   api.imply('tap:i18n')
 
   api.addFiles('i18n/package-tap.i18n', ['client', 'server'])
@@ -33,6 +33,7 @@ Package.onUse(function (api) {
   api.addFiles('i18n/pt.i18n.json', ['client', 'server'])
   api.addFiles('i18n/nl.i18n.json', ['client', 'server'])
   api.addFiles('i18n/zh.i18n.json', ['client', 'server'])
+  api.addFiles('i18n/da.i18n.json', ['client', 'server'])
 
   api.addFiles('status.js',     'client')
   api.addFiles('lib/status.js', 'client')
