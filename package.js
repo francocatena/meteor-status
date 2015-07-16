@@ -27,16 +27,16 @@ Package.onUse(function (api) {
   api.addFiles('templates/materialize.html', client)
 
   // Always after templates
+  api.addFiles('i18n/da.i18n.json', both)
+  api.addFiles('i18n/de.i18n.json', both)
   api.addFiles('i18n/en.i18n.json', both)
   api.addFiles('i18n/es.i18n.json', both)
   api.addFiles('i18n/fr.i18n.json', both)
   api.addFiles('i18n/it.i18n.json', both)
-  api.addFiles('i18n/tr.i18n.json', both)
-  api.addFiles('i18n/de.i18n.json', both)
-  api.addFiles('i18n/pt.i18n.json', both)
   api.addFiles('i18n/nl.i18n.json', both)
+  api.addFiles('i18n/pt.i18n.json', both)
+  api.addFiles('i18n/tr.i18n.json', both)
   api.addFiles('i18n/zh.i18n.json', both)
-  api.addFiles('i18n/da.i18n.json', both)
 
   api.addFiles('status.js',     client)
   api.addFiles('lib/status.js', client)
