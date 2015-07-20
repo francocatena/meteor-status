@@ -1,7 +1,7 @@
 Package.describe({
   name:    'francocatena:status',
   summary: 'Display the connection status between the browser and the Meteor server',
-  version: '1.2.4',
+  version: '1.2.5',
   git:     'https://github.com/francocatena/meteor-status',
 })
 
