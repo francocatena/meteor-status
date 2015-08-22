@@ -92,6 +92,7 @@ And voilà:
 - Traditional Chinese (thanks to [Henry Hsiao](https://github.com/hehsiao))
 - Danish (thanks to [132041](https://github.com/132041))
 - Simplified Chinese (thanks to [Bing Zou](https://github.com/xigua))
+- Czech language
 
 ## Contributors
 
