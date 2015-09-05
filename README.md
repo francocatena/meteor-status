@@ -93,6 +93,7 @@ And voilà:
 - Danish (thanks to [132041](https://github.com/132041))
 - Simplified Chinese (thanks to [Bing Zou](https://github.com/xigua))
 - Czech (thanks to [Rostislav Postrednik](https://github.com/postrednik))
+- Russian (thanks to [navi8602](https://github.com/navi8602))
 
 ## Contributors
 
