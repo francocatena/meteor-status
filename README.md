@@ -94,6 +94,7 @@ And voilà:
 - Simplified Chinese (thanks to [Bing Zou](https://github.com/xigua))
 - Czech (thanks to [Rostislav Postrednik](https://github.com/postrednik))
 - Russian (thanks to [navi8602](https://github.com/navi8602))
+- Malay (thanks to [hack1m](https://github.com/hack1m))
 
 ## Contributors
 
