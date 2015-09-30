@@ -2,7 +2,7 @@ Package.describe({
   name:    'francocatena:status',
   git:     'https://github.com/francocatena/meteor-status',
   summary: 'Displays the connection status between browser and server',
-  version: '1.3.4'
+  version: '1.4.0'
 })
 
 Package.onUse(function (api) {
@@ -16,10 +16,8 @@ Package.onUse(function (api) {
   api.use('underscore',   client)
   api.use('reactive-var', client)
 
-  api.use('tap:i18n@1.5.1', both)
+  api.use('tap:i18n@1.6.1', both)
   api.imply('tap:i18n')
-
-  api.addFiles('i18n/package-tap.i18n', both)
 
   api.addFiles('lib/status.html',            client)
   api.addFiles('templates/bootstrap3.html',  client)
