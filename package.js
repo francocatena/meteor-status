@@ -24,6 +24,7 @@ Package.onUse(function (api) {
   api.addFiles('templates/semantic_ui.html', client)
   api.addFiles('templates/materialize.html', client)
   api.addFiles('templates/uikit.html', client)
+  api.addFiles('templates/foundation.html', client)
 
   // Always after templates
   api.addFiles('i18n/cn.i18n.json', both)
