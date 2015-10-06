@@ -4,8 +4,8 @@ var defaults = {
   classes: {
     bootstrap3:  'alert-warning',
     semantic_ui: 'negative',
-    uikit: 'warning',
-    foundation: 'warning'
+    uikit:       'warning',
+    foundation:  'warning'
   }
 }
 
