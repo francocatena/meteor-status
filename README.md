@@ -32,6 +32,8 @@ Meteor.startup(function () {
 - bootstrap3 (default)
 - semantic_ui (thanks [Sivli Kestanous](https://github.com/Kestanous))
 - materialize (thanks [Gabriel](https://github.com/kainlite))
+- Uikit (thanks [hack1m](https://github.com/hack1m))
+- Foundation (thanks [hack1m](https://github.com/hack1m))
 
 ### Creating a custom template
 
@@ -40,14 +42,14 @@ To define a custom template simply create a template with the name 'status\_' + 
 For example:
 
 ```html
-<template name="status_foundation">
+<template name="status_skeleton">
 </template>
 ```
 
 And then use it like this:
 
 ```javascript
-Status.setTemplate('foundation')
+Status.setTemplate('skeleton')
 ```
 
 You can also set the main classes (or other options) in the provided templates
