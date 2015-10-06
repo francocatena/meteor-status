@@ -29,11 +29,11 @@ Meteor.startup(function () {
 
 ### Available templates
 
-- bootstrap3 (default)
-- semantic_ui (thanks [Sivli Kestanous](https://github.com/Kestanous))
-- materialize (thanks [Gabriel](https://github.com/kainlite))
-- Uikit (thanks [hack1m](https://github.com/hack1m))
-- Foundation (thanks [hack1m](https://github.com/hack1m))
+- [bootstrap3](http://getbootstrap.com/) (default)
+- [semantic_ui](http://semantic-ui.com/) (thanks [Sivli Kestanous](https://github.com/Kestanous))
+- [materialize](http://materializecss.com/) (thanks [Gabriel](https://github.com/kainlite))
+- [uikit](http://getuikit.com/) (thanks [hack1m](https://github.com/hack1m))
+- [foundation](http://foundation.zurb.com/) (thanks [hack1m](https://github.com/hack1m))
 
 ### Creating a custom template
 
