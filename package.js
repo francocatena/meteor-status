@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.use('underscore',   client)
   api.use('reactive-var', client)
 
-  api.use('tap:i18n@1.6.1', both)
+  api.use('tap:i18n@1.7.0', both)
   api.imply('tap:i18n')
 
   api.addFiles('lib/status.html',            client)
