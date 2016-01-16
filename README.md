@@ -98,6 +98,7 @@ And voilà:
 - Russian (thanks to [navi8602](https://github.com/navi8602))
 - Malay (thanks to [hack1m](https://github.com/hack1m))
 - Indonesian (thanks to [hack1m](https://github.com/hack1m))
+- Vietnamese (thanks to [phund](https://github.com/phund))
 
 ## Contributors
 
