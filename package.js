@@ -1,6 +1,6 @@
 Package.describe({
-  name:    'francocatena:status',
-  git:     'https://github.com/francocatena/meteor-status',
+  name:    'michaelxu:status',
+  git:     'https://github.com/Micjoyce/meteor-status',
   summary: 'Displays the connection status between browser and server',
   version: '1.5.1'
 })
