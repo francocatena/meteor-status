@@ -93,7 +93,7 @@ And voilà:
 - Dutch (thanks to [David Soff](https://github.com/Davidrums))
 - Traditional Chinese (thanks to [Henry Hsiao](https://github.com/hehsiao))
 - Danish (thanks to [132041](https://github.com/132041))
-- Simplified Chinese (thanks to [Bing Zou](https://github.com/xigua))
+- Simplified Chinese (thanks to [Bing Zou](https://github.com/xigua) and [Micjoyce](https://github.com/Micjoyce))
 - Czech (thanks to [Rostislav Postrednik](https://github.com/postrednik))
 - Russian (thanks to [navi8602](https://github.com/navi8602))
 - Malay (thanks to [hack1m](https://github.com/hack1m))

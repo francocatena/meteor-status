@@ -2,7 +2,7 @@ Package.describe({
   name:    'francocatena:status',
   git:     'https://github.com/francocatena/meteor-status',
   summary: 'Displays the connection status between browser and server',
-  version: '1.5.1'
+  version: '1.5.2'
 })
 
 Package.onUse(function (api) {
@@ -27,22 +27,23 @@ Package.onUse(function (api) {
   api.addFiles('templates/foundation.html',  client)
 
   // Always after templates
-  api.addFiles('i18n/cn.i18n.json', both)
-  api.addFiles('i18n/cs.i18n.json', both)
-  api.addFiles('i18n/da.i18n.json', both)
-  api.addFiles('i18n/de.i18n.json', both)
-  api.addFiles('i18n/en.i18n.json', both)
-  api.addFiles('i18n/es.i18n.json', both)
-  api.addFiles('i18n/fr.i18n.json', both)
-  api.addFiles('i18n/id.i18n.json', both)
-  api.addFiles('i18n/it.i18n.json', both)
-  api.addFiles('i18n/ms.i18n.json', both)
-  api.addFiles('i18n/nl.i18n.json', both)
-  api.addFiles('i18n/pt.i18n.json', both)
-  api.addFiles('i18n/ru.i18n.json', both)
-  api.addFiles('i18n/tr.i18n.json', both)
-  api.addFiles('i18n/vi.i18n.json', both)
-  api.addFiles('i18n/zh.i18n.json', both)
+  api.addFiles('i18n/cn.i18n.json',    both)
+  api.addFiles('i18n/cs.i18n.json',    both)
+  api.addFiles('i18n/da.i18n.json',    both)
+  api.addFiles('i18n/de.i18n.json',    both)
+  api.addFiles('i18n/en.i18n.json',    both)
+  api.addFiles('i18n/es.i18n.json',    both)
+  api.addFiles('i18n/fr.i18n.json',    both)
+  api.addFiles('i18n/id.i18n.json',    both)
+  api.addFiles('i18n/it.i18n.json',    both)
+  api.addFiles('i18n/ms.i18n.json',    both)
+  api.addFiles('i18n/nl.i18n.json',    both)
+  api.addFiles('i18n/pt.i18n.json',    both)
+  api.addFiles('i18n/ru.i18n.json',    both)
+  api.addFiles('i18n/tr.i18n.json',    both)
+  api.addFiles('i18n/vi.i18n.json',    both)
+  api.addFiles('i18n/zh.i18n.json',    both)
+  api.addFiles('i18n/zh-TW.i18n.json', both)
 
   api.addFiles('status.js',     client)
   api.addFiles('lib/status.js', client)
