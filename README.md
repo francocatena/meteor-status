@@ -99,6 +99,7 @@ And voilà:
 - Malay (thanks to [hack1m](https://github.com/hack1m))
 - Indonesian (thanks to [hack1m](https://github.com/hack1m))
 - Vietnamese (thanks to [phund](https://github.com/phund))
+- Estonian (thanks to [Kris Haamer](https://github.com/krishaamer))
 
 ## Contributors
 

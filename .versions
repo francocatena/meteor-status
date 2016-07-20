@@ -22,13 +22,13 @@ diff-sequence@1.0.6
 ecmascript@0.4.8
 ecmascript-runtime@0.2.12
 ejson@1.0.12
-francocatena:status@1.5.2
+francocatena:status@1.5.3
 geojson-utils@1.0.9
 html-tools@1.0.10
 htmljs@1.0.10
 id-map@1.0.8
 jquery@1.11.9
-local-test:francocatena:status@1.5.2
+local-test:francocatena:status@1.5.3
 logging@1.0.14
 meteor@1.1.16
 meteorspark:util@0.2.0
