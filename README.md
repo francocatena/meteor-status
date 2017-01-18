@@ -1,3 +1,5 @@
+## This release add Chinese i18n 
+
 Meteor status
 =============
 
